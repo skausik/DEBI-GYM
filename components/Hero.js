@@ -36,7 +36,7 @@ export default function Hero() {
         <p className="hero-tag">★ Jhargram's #1 Rated Gym · Raghunathpur, Chandipur</p>
         <h1>
           DEBI<br />
-          <span className="outline">GYNA</span><span className="accent">SIUM</span>
+          <span className="outline">GYMNA</span><span className="accent">SIUM</span>
         </h1>
         <p className="hero-sub">
           Forging strength, discipline, and character in the heart of Jhargram. Professional coaching for every level.
