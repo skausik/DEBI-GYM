@@ -62,7 +62,7 @@ export default function Stats() {
           <span id="stat1">0</span>
           <span style={{ color: 'var(--red)' }}>+</span>
         </div>
-        <div className="stat-label">Happy Members</div>
+        <div className="stat-label">Happy Memhgfgfjbers</div>
       </div>
       <div className="stat-box" style={{ transitionDelay: '.1s' }}>
         <div className="stat-num">

@@ -129,6 +129,8 @@
   box-shadow: 0 0 0 3px rgba(232, 24, 12, 0.1);
 }
 
+.updateBtn { margin-left:12px; padding:8px 12px; font-size:0.9rem; background:#fff; border:1px solid #e8180c; color:var(--red); border-radius:4px; cursor:pointer }
+
 .btnPrimary,
 .btnDanger {
   padding: 12px 24px;

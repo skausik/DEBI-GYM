@@ -5,7 +5,7 @@ export const GymContext = createContext()
 export function GymProvider({ children }) {
   const [gymData, setGymData] = useState({
     stats: {
-      members: 78,
+      members: 7778,
       rating: 5,
       equipment: 30,
       opensAt: 6

@@ -76,8 +76,9 @@ export default function About() {
           Our state-of-the-art equipment, modern machines, and dedicated personal trainers ensure every member gets the guidance they need — whether just starting out or pushing elite limits.
         </p>
         <div className="about-trainer">
-          <div className="trainer-name">Kaliprasad Roy</div>
+          <div className="trainer-name"><a href="https://www.google.com/search?q=debi+gymnasium+jhargram" target="_blank" rel="noopener noreferrer">Kaliprasad Roy</a></div>
           <div className="trainer-role">Owner &amp; Head Trainer · M.D.P.C.A. Affiliated</div>
+          <div style={{marginTop:8,color:'var(--gray)',fontSize:'0.9rem'}}>More details: <a href="https://www.google.com/search?q=debi+gymnasium+jhargram" target="_blank" rel="noopener noreferrer">Google search for Debi Gymnasium Jhargram</a></div>
         </div>
       </div>
     </section>

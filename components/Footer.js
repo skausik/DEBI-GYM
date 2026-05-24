@@ -3,20 +3,45 @@ export default function Footer() {
     <footer>
       <div className="footer-logo">
         <span>DEBI</span> GYMNASIUM
-        <div className="footer-copy">Website created by <span style={{color: 'var(--red)', fontWeight: '700'}}>Kausik Santra</span></div>
-        {/* <div>
-        <a href="https://instagram.com/k__k_santra" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:#333; display:inline-flex; align-items:center; gap:8px;">
-        <svg width="20" height="20" viewBox="0 0 448 512" fill="#E1306C" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 114.9-51.3 114.9-114.9S287.7 141 224.1 141zm0 190.1c-41.3 0-75-33.7-75-75s33.7-75 75-75 75 33.7 75 75-33.7 75-75 75zm146.4-194.3c0 14.9-12.1 27-27 27-14.9 0-27-12.1-27-27 0-14.9 12.1-27 27-27 14.9 0 27 １２.１ ２７ ２７zm７６．１ ２７．２c－．７－３５．３－９．９－６６．７－３６．２－９３－２６．３－２６．３－５７．７－３５．５－９３－３６．２－３６．７－２．１－１４６．８－２．１－１８３．５ ０－３５．３．７－６６．７ ９．９－９３ ３６．２s－３５．５ ５７．７－３６．２ ９３c－２．１ ３６．７－２．１ １４６．８ ０ １８３．５．７ ３５．３ ９．９ ６６．７ ３６．２ ９３ ２６．３ ２６．３ ５７．７ ³⁵·⁵  
-        @k__k_santra
-      </a>
-      </div> */}
+
+        <div className="footer-owner">Owner &amp; Trainer: <a className="owner-link" href="https://www.facebook.com/debigymnasium/" target="_blank" rel="noopener noreferrer">Kaliprasad Roy</a></div>
+
+   
       </div>
       
 
-      <div className="footer-copy">Raghunathpur, Chandipur · Jhargram · WB</div>
+      <div className="footer-center">
+        <div className="footer-copy">Raghunathpur, Chandipur · Jhargram · WB</div>
+        <div className="footer-locs">
+        <a href="https://www.facebook.com/p/Debi-Gymnasium-Jhargram-100057609123233/" target="_blank" rel="noopener noreferrer" aria-label="Debi Gym Facebook">
+          <svg width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="social-icon" aria-hidden="true">
+            <path fill="#1877F2" d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 4.84 3.44 8.85 7.94 9.77v-6.92H7.9v-2.85h2.04V9.41c0-2.02 1.2-3.13 3.04-3.13.88 0 1.8.16 1.8.16v1.98h-1.01c-.99 0-1.3.62-1.3 1.25v1.52h2.22l-.35 2.85h-1.87v6.92C18.56 20.92 22 16.92 22 12.07z"/>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/explore/locations/430191940487241/debi-gymnasium-jhargram/" target="_blank" rel="noopener noreferrer" aria-label="Debi Gym Instagram">
+          <svg width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="social-icon" aria-hidden="true" fill="none">
+            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5z" stroke="#E1306C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z" stroke="#E1306C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M17.5 6.5h.01" stroke="#E1306C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </a>
+        </div>
+      </div>
 
-      <div className="footer-copy">★ 5.0 Rated · M.D.P.C.A. Affiliated </div>
+      <div className="footer-copy">★ 5.0 Rated · M.D.P.C.A. Affiliated
+             <div className="footer-social">
+          <span className="footer-copy">Website created by</span>
+          <a href="https://instagram.com/k__k_santra" target="_blank" rel="noopener noreferrer" className="ig-link" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{marginRight:4}}>
+              <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5z" stroke="#E1306C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z" stroke="#E1306C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M17.5 6.5h.01" stroke="#E1306C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            KAUSIK SANTRA
+          </a>
+        </div>
+         </div>
+      
     </footer>
   )
 }
